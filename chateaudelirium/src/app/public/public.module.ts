@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { PublicRoutingModule } from './public-routing.module';
 
+import { MatIconModule } from '@angular/material/icon';
+
 
 
 @NgModule({
@@ -11,7 +13,8 @@ import { PublicRoutingModule } from './public-routing.module';
   ],
   imports: [
     CommonModule,
-    PublicRoutingModule
+    PublicRoutingModule,
+    MatIconModule,
   ]
 })
 export class PublicModule { }
