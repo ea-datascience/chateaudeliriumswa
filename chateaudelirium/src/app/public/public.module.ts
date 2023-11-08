@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { PublicRoutingModule } from './public-routing.module';
 
 import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 
 
 
@@ -15,6 +16,7 @@ import { MatIconModule } from '@angular/material/icon';
     CommonModule,
     PublicRoutingModule,
     MatIconModule,
+    MatButtonModule,
   ]
 })
 export class PublicModule { }
