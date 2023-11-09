@@ -10,6 +10,10 @@ const routes: Routes = [
     path:'trainer', 
     loadChildren: () => import('./trainer/trainer.module').then(m => m.TrainerModule)
   },
+  {
+    path:'register-trainer', 
+    loadChildren: () => import('./register-trainer/register-trainer.module').then(m => m.RegisterTrainerModule)
+  },
 
   {
     path:'', 

@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { PublicModule } from './public/public.module';
 import { TrainerModule } from './trainer/trainer.module';
+import { RegisterTrainerModule } from './register-trainer/register-trainer.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { TrainerModule } from './trainer/trainer.module';
     BrowserAnimationsModule,
     PublicModule,
     TrainerModule,
+    RegisterTrainerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
