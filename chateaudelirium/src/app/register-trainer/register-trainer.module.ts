@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AuthUIComponent } from './auth-ui/auth-ui.component';
+import { RegisterTrainerRoutingModule } from './register-trainer-routing.module';
 
 
 
@@ -9,7 +10,8 @@ import { AuthUIComponent } from './auth-ui/auth-ui.component';
     AuthUIComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RegisterTrainerRoutingModule,
   ]
 })
 export class RegisterTrainerModule { }

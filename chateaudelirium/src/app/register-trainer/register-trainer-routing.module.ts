@@ -9,4 +9,4 @@ const routes: Routes = [{ path: '', component: AuthUIComponent }];
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule]
 })
-export class AuthRoutingModule {}
+export class RegisterTrainerRoutingModule {}
