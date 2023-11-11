@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,6 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./auth-ui.component.css']
 })
 export class AuthUIComponent {
+
+  constructor(private http:HttpClient) { }
+
+  githubLogin(){
+  }
+
   googleLogin(){
   }
 
@@ -13,5 +20,13 @@ export class AuthUIComponent {
   }
 
   emailLogin(email:string, password:string){
+  }
+
+  // https://black-tree-0badee803.4.azurestaticapps.net/home
+
+  microsoftLogin(){
+    this.http.get('https://black-tree-0badee803.4.azurestaticapps.net/.auth/login/aad').subscribe((res:any) => {
+      window.location.href = res.redirectUrl;
+    } );  
   }
 }
