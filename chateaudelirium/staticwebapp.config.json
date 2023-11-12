@@ -1,6 +1,12 @@
 {
-    "route": "/profile/index.html",
-    "allowedRoles": [
-        "authenticated"
+    "routes": [
+        {
+            "route": "/api/example",
+            "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/.auth/login/aad",
+            "statusCode": 404
+        }
     ]
 }
