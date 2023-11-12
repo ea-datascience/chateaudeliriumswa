@@ -23,8 +23,7 @@ export class AuthUIComponent {
   emailLogin(email:string, password:string){
   }
   
-  // https://black-tree-0badee803.4.azurestaticapps.net/home
-  
+ 
   microsoftLogin(){
     window.open('/.auth/login/aad', '_self');
   }
