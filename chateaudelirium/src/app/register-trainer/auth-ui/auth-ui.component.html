@@ -160,5 +160,23 @@
           ><span class="firebaseui-idp-text firebaseui-idp-text-short">Guest</span>
         </button>
       </li>
+      <li class="firebaseui-list-item" (click)="logout();" *ngIf="userInfo">
+        <button
+          class="firebaseui-idp-button mdl-button mdl-js-button mdl-button--raised firebaseui-idp-anonymous firebaseui-id-idp-button"
+          data-provider-id="anonymous"
+          style="background-color: #f4b400"
+          data-upgraded=",MaterialButton"
+        >
+          <span class="firebaseui-idp-icon-wrapper"
+            ><img
+              class="firebaseui-idp-icon"
+              alt=""
+              src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/anonymous.png" /></span
+          ><span class="firebaseui-idp-text firebaseui-idp-text-long"
+            >Logout</span
+          ><span class="firebaseui-idp-text firebaseui-idp-text-short">Guest</span>
+        </button>
+      </li>
+
     </ul>
     </div>

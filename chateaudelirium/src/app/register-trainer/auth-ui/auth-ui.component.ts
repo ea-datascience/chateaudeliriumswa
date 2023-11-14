@@ -53,5 +53,9 @@ export class AuthUIComponent implements OnInit{
       return undefined;
     }
   }  
+
+  logout(){
+    window.open('/.auth/logout?post_logout_redirect_uri=' + this.redirect, '_self');
+  }
   
 }
