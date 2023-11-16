@@ -2,15 +2,15 @@
     "routes": [
         {
             "route": "/home",
-            "rewrite": "/index.html",
+            "statusCode": 200
         },
         {
             "route": "/trainer",
-            "rewrite": "/index.html",
+            "statusCode": 200
         },
         {
             "route": "/register-trainer",
-            "rewrite": "/index.html",
+            "statusCode": 200
         },
         {
             "route": "/api/example",
