@@ -5,6 +5,10 @@
             "redirect": "index.html"
         },
         {
+            "route": "/register-trainer",
+            "redirect": "index.html"
+        },        
+        {
             "route": "/api/example",
             "allowedRoles": [
                 "authenticated"
