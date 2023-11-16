@@ -2,7 +2,7 @@
     "routes": [
         {
             "route": "/home",
-            "redirect": "index.html"
+            "rewrite": "index.html"
         },
         {
             "route": "/register-trainer",
