@@ -6,7 +6,7 @@
         },
         {
             "route": "/register-trainer",
-            "redirect": "index.html"
+            "rewrite": "index.html"
         },        
         {
             "route": "/api/example",
