@@ -13,10 +13,6 @@
             "rewrite": "/index.html",
         },
         {
-            "route": "/*",
-            "rewrite": "/index.html",
-        },
-        {
             "route": "/api/example",
             "allowedRoles": [
                 "authenticated"
@@ -25,6 +21,11 @@
         {
             "route": "/.auth/login/aad",
             "statusCode": 404
+        }        
+        {
+            "route": "/*",
+            "rewrite": "/index.html",
         }
+
     ]
 }
